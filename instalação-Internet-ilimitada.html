@@ -5,9 +5,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
 <title> CHAT-NEWTECH  </title>
- </head> <body><h1>INTERNET INSTALACAO GRATIS</h1>
+ </head> <body><h1>INTERNET INSTALACAO TESTE GRATIS</h1>
  
-<video controls src="https://m.youtube.com/watch?v=ZjXXuOScv3M" type="video/mp4 controls" height="100px"width="100%" autoplay loop muted playsinline id="vid" class="img__video"></video><br><br>
+<video controls src="iptv.mp4" type="video/mp4 controls" height="100px"width="100%" autoplay loop muted playsinline id="vid" class="img__video"></video><br><br>
 
 
 <div class="lab"><label class="lb" id="" onclick="">VIDEO 01</label>
@@ -15,18 +15,25 @@
 <label class="lb" id="" onclick="">VIDEO 02</label>
 
 <label class="lb" id="" onclick="">VIDEO 03</label></div><br><br>
-<a href="https://youtu.be/ZGqrSjkQJDU?si=Mu7wbO1gSevnBb_5">
-<button class="btn"id=""onclick="">INSTALAR</button></a>
+<a href="">
+<button class="btn"id=""onclick="">INSTALAR 01</button></a>
 
-<a href="https://youtu.be/ZcgK0IxArZY?si=pLjHmDt7yiPXasEG">
-<button class="btn"id=""onclick="">INSTALAR</button></a>
+<a href="">
+<button class="btn1"id=""onclick="">INSTALAR 02</button></a>
 
-<a href="https://youtu.be/_7JVbd1YU10?si=cYKOQzoBKuv9miNS">
-<button class="btn"id=""onclick="">INSTALAR</button></a><br>
+<a href="">
+<button class="btn2"id=""onclick="">INSTALAR 03</button></a><br>
 
 
 
 <style>
+h1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:20px;
+    margin:auto;
+}
 body {
     background:linear-gradient(90deg,green,blue,green);
     color:white;
@@ -34,7 +41,7 @@ body {
 
 .lb {
 display:inline;
-margin:15px;
+margin:20px;
 flex-direction:row;
 justify-content:left;
 text-align:left;
@@ -44,9 +51,35 @@ align-text:center;
     margin:px;
     width:30%;
     height:40px;
-    outline:none
+    background:linear-gradient(90deg, green, red, green);
+    outline:none;
+    border-radius:16px;
 }
 .btn:focus {
+    background:gold;
+    color:white;
+}
+.btn1{
+    margin:px;
+    background:linear-gradient(90deg, green, red, green);
+    width:30%;
+    height:40px;
+    outline:none;
+    border-radius:16px;
+}
+.btn1:focus {
+    background:gold;
+    color:white;
+}
+.btn2{
+    margin:px;
+    width:30%;
+    height:40px;
+    background:linear-gradient(90deg, green, red, green);
+    outline:none;
+    border-radius:16px;
+}
+.btn2:focus {
     background:gold;
     color:white;
 }
@@ -78,6 +111,27 @@ align-text:center;
 a {
     color:#666;
 }
+.btn{animation: btn 1s infinite;}
+@keyframes btn{ 
+20% {background:red;}
+50% {background:blue;}
+}
+
+.btn1{animation: btn1 1s infinite;}
+@keyframes btn1{ 
+20% {background:green}
+50% {background:white;}
+75% {background:green}
+}
+.btn2{animation: btn2 1s infinite;}
+@keyframes btn2{ 
+20% {background:blue;}
+50% {background:red;}
+    
+}
 </style>
+<script>
+document.getElementById(vid).play ();
+</script>
 </body>
 </html>

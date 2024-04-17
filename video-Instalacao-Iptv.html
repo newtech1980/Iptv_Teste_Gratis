@@ -7,14 +7,15 @@
 <title> CHAT-NEWTECH  </title>
  </head> <body><h1>IPTV TESTE GRATIS</h1>
  
-<video controls src="iptv.mp4" type="video/mp4 controls" height="100px"width="100%" autoplay loop muted playsinline id="vid" class="img__video"></video>
+<video controls src="iptv.mp4" type="video/mp4 controls" height="100px"width="100%" autoplay loop muted playsinline id="vid" class="img__video"></video><br><br><b>
+<label class="smarteres" id="7">VIDEO CONFIGURACAO SMARTERES PRO</labe><br><br>
+<a href="configura.mp4">
+<button class="bbtn" >CONFIGURACAO </button><br><br></a>
+<div class="lab"><label class="lb" id="1" onclick="">TV LG</label>
 
+<label class="lb" id="2" onclick="">TV SAMSUNG</label>
 
-<div class="lab"><label class="lb" id="" onclick="">TV LG</label>
-
-<label class="lb" id="" onclick="">TV SAMSUNG</label>
-
-<label class="lb" id="" onclick="">TV PHILCO</label></div><br>
+<label class="lb" id="3" onclick="">TV PHILCO</label></div><br>
 <a href="https://youtu.be/ZGqrSjkQJDU?si=Mu7wbO1gSevnBb_5">
 <button class="btn"id=""onclick="">INSTALAR</button></a>
 
@@ -24,8 +25,8 @@
 <a href="https://youtu.be/_7JVbd1YU10?si=cYKOQzoBKuv9miNS">
 <button class="btn"id=""onclick="">INSTALAR</button></a><br>
 
-<label class="lb" id="" onclick="">TV TCL</label>
-<label class="lb" id="" onclick="">TV ROKU</label><br>
+<label class="lb" id="4" onclick="">TV TCL</label>
+<label class="lb" id="5" onclick="">TV ROKU</label><br>
 <a href="https://youtu.be/BAnqF_7YHhE?si=H9rziLd8ctzCCQj2">
 <button class="btn" id="" onclick="">INSTALAR</button></a>
 
@@ -33,8 +34,8 @@
 <button class="btn" id="" onclick="">INSTALAR</button><br></a><br>
 
 
-<label class="duv">PARA TIRAR QUALQUER DUVIDA </label><br>
-<a href="http:wa.me/5571992290058">
+<label class="duv" id="6">PARA TIRAR QUALQUER DUVIDA </label><br>
+<a href="https:wa.me/5571992290058">
 <button class="btn8" id="" onclick="">AJUDAR </button></a>
 
 <style>
@@ -89,6 +90,28 @@ align-text:center;
 a {
     color:#666;
 }
+.bbtn{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:auto;
+}
+
+.smarteres {
+    display:inline;
+    flex-direction:row;
+    justify-content:center;
+    margin:center;
+    margin-left:30px;
+    
+}
 </style>
+
+<script>
+let i1 = 1; 
+let interval = setInterval(function () { if(i1 > 1){ document.getElementById(i1-1).style.backgroundColor = ''; } if (i1 > 15)
+{ return clearInterval(interval); } document.getElementById(i1).style.backgroundColor = 'red'; i1++; }, 1000);
+</script>
+
 </body>
 </html>
